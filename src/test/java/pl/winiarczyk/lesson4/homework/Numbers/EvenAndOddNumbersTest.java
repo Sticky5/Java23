@@ -8,6 +8,7 @@ class EvenAndOddNumbersTest {
 
     @Test
     void shouldCheckIfNumberIsOdd() {
+
         int number = 26;
 
         int result = EvenAndOddNumbers.oddNumbers(number);
@@ -17,6 +18,7 @@ class EvenAndOddNumbersTest {
 
     @Test
     void shouldCheckIfNumberIsEven() {
+
         int number = 37;
 
         int result = EvenAndOddNumbers.evenNumbers(number);

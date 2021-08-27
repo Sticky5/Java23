@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 
 class EvenAndOddNumbersTest {
-
     @Test
     void shouldCheckIfNumberIsOdd() {
 
@@ -18,7 +17,6 @@ class EvenAndOddNumbersTest {
 
     @Test
     void shouldCheckIfNumberIsEven() {
-
         int number = 37;
 
         int result = EvenAndOddNumbers.evenNumbers(number);

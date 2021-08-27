@@ -3,6 +3,7 @@ package pl.winiarczyk.lesson4.homework;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import pl.winiarczyk.lesson4.homework.AgeVerify.AgeVerify;
 
 class AgeVerifyTest {
 

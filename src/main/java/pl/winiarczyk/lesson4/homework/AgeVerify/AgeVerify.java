@@ -1,4 +1,4 @@
-package pl.winiarczyk.lesson4.homework;
+package pl.winiarczyk.lesson4.homework.AgeVerify;
 
 public class AgeVerify {
 

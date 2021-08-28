@@ -1,26 +1,18 @@
 package pl.winiarczyk.lesson4.homework.Numbers;
 
 public class EvenAndOddNumbers {
-    public static int evenNumbers(int checkNumber) {
-        if (checkNumber % 2 == 0) {
-            System.out.println("Number " + checkNumber + " is even.");
-        } else {
-            System.out.println("This number is odd.");
-        }
-        return checkNumber;
-    }
 
-    public static int oddNumbers(int checkNumber2) {
-        if (checkNumber2 % 2 != 0) {
-            System.out.println("Number " + checkNumber2 + " is odd.");
-        } else {
-            System.out.println("This number is even.");
+    public static boolean isNumberOddOrEven(int checkNumber) {
+        if (true) {
+            return checkNumber % 2 == 0;
         }
-        return checkNumber2;
+        if (false) {
+            return checkNumber % 2 != 0;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
-        evenNumbers(6);
-        oddNumbers(11);
+        System.out.println(isNumberOddOrEven(4989));
     }
 }

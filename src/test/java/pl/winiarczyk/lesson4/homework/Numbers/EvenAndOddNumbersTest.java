@@ -3,24 +3,22 @@ package pl.winiarczyk.lesson4.homework.Numbers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 class EvenAndOddNumbersTest {
+
     @Test
-    void shouldCheckIfNumberIsEven() {
+    void shouldCheckIfNumber44IsEven() {
+        int evenNumber = 44;
 
-        int number = 26;
+        boolean result = EvenAndOddNumbers.isNumberOddOrEven(evenNumber);
 
-        int result = EvenAndOddNumbers.oddNumbers(number);
-
-        Assertions.assertEquals(26, result);
+        Assertions.assertTrue(result);
     }
-
     @Test
-    void shouldCheckIfNumberIsOdd() {
-        int number = 37;
+    void shouldCheckIfNumber99isOdd() {
+        int oddNumber = 99;
 
-        int result = EvenAndOddNumbers.evenNumbers(number);
+        boolean result = EvenAndOddNumbers.isNumberOddOrEven(oddNumber);
 
-        Assertions.assertEquals(37, result);
+        Assertions.assertFalse(result);
     }
 }

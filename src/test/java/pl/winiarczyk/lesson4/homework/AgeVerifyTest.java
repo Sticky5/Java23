@@ -10,8 +10,8 @@ class AgeVerifyTest {
     void shouldCheckIfAgeIsOver18() {
         int testMatureAge = 22;
 
-        boolean isOver18YO = AgeVerify.isMature(testMatureAge);
+        boolean isOver18 = AgeVerify.isMature(testMatureAge);
 
-        Assertions.assertTrue(isOver18YO);
+        Assertions.assertTrue(isOver18);
     }
 }

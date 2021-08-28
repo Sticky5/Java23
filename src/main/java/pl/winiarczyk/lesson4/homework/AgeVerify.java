@@ -8,9 +8,9 @@ public class AgeVerify {
 
   public static void main(String[] args) {
     if(isMature(22)) {
-      System.out.println("Your age is ok!");
+      System.out.println("Your age is ok.");
     } else {
-      System.out.println("Your age isn't ok!");
+      System.out.println("Your age isn't ok.");
     }
   }
 }

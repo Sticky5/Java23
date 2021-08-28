@@ -1,4 +1,4 @@
-package lesson5.example;
+package pl.winiarczyk.lesson4.example;
 
 public class Car {
 

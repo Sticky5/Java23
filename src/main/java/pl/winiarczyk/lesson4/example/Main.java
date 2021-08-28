@@ -1,4 +1,6 @@
-package lesson5.example;
+package pl.winiarczyk.lesson4.example;
+
+import pl.winiarczyk.lesson4.example.Car;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,13 +1,14 @@
-package pl.winiarczyk.lesson4.example;
+package pl.winiarczyk.lesson4.carExample;
 
-public class Car {
+public class Car  implements Drive {
 
     double mileage;
     int doors;
-    String brand;
+    Brand brand;
     String model;
+    Engine engine;
 
-    public Car(){
+    public Car() {
         this.mileage = 25;
     }
 
@@ -18,6 +19,9 @@ public class Car {
         this.mileage = -1000;
     }
 
+    public Car(int doors, Brand bmw, String model) {
+    }
+
     public void horn() {
         System.out.println("Beeeeeep!");
     }
@@ -25,5 +29,15 @@ public class Car {
     public double drive(double mileage) {
         this.mileage += mileage;
         return this.mileage;
+    }
+
+    @Override
+    public void forward() {
+        mileage += 5;
+    }
+
+    @Override
+    public void backward() {
+        mileage -= 5;
     }
 }

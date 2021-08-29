@@ -1,9 +1,9 @@
 package pl.winiarczyk.CinemaEmployees;
 
-public class BaseEmployee {
+public abstract class BaseEmployee {
     private String name;
     private String surname;
-    final int salary = 3000;
+    final int SALARY = 3000;
     final int hireYear;
 
     public BaseEmployee(String name, String surname, int hireYear) {
@@ -12,9 +12,7 @@ public class BaseEmployee {
         this.hireYear = hireYear;
     }
 
-    public int calculateMonthlySalary() {
-        return salary;
-    }
+    public abstract int calculateMonthlySalary();
 
     public int getYearsWorked(int currentYear) {
         return currentYear - hireYear;

@@ -3,8 +3,8 @@ package pl.winiarczyk;
 public class Cinema {
     public static void main(String[] args) {
 
-        Hall place = new Hall(5,11,false);
-        Hall place2 = new Hall(11,4,true);
+        HallSeat place = new HallSeat(14, 7, true);
+        HallSeat place2 = new HallSeat(9, 4, false);
 
     }
 }

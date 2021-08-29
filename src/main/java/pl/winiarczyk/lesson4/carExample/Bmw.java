@@ -9,7 +9,7 @@ public class Bmw extends Car{
 
     boolean turnSignals = false;
 
-    Bmw(final int doors, final String brand, final  String model) {
+    Bmw(final int doors, final Brand brand, final  String model) {
         super(doors,brand,model);
 //    public Bmw(double mileage, int doors) {
 //        this.mileage = mileage;

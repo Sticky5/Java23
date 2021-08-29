@@ -21,8 +21,8 @@ class DaysOfWeekTest {
         String result1 = DaysOfWeek.getDayName(6);
         String result2 = DaysOfWeek.getDayName(7);
 
-        Assertions.assertEquals(result1, weekend);
-        Assertions.assertEquals(result2, weekend);
+        assertEquals(result1, weekend);
+        assertEquals(result2, weekend);
     }
     @Test
     void shouldCheckDefaultValue() {
@@ -32,6 +32,6 @@ class DaysOfWeekTest {
 
         String result = DaysOfWeek.getDayName(badInput);
 
-        Assertions.assertEquals(result, properResult);
+        assertEquals(result, properResult);
     }
 }

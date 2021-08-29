@@ -1,6 +1,6 @@
 package pl.winiarczyk.lesson4.carExample;
 
-public class Car  implements Drive {
+public class Car implements Drive {
 
     double mileage;
     int doors;

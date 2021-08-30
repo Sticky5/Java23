@@ -23,5 +23,6 @@ class MinutesToSecondsConversionTest {
         double timeInSeconds = MinutesToSecondsConversion.convertMinutesToSeconds(timeInMinutes);
 
         Assertions.assertEquals(timeInSeconds, 0);
+
     }
 }

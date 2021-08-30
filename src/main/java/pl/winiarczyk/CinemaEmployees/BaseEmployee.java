@@ -3,8 +3,8 @@ package pl.winiarczyk.CinemaEmployees;
 public abstract class BaseEmployee {
     private String name;
     private String surname;
-    final int SALARY = 3000;
-    final int hireYear;
+    static final int SALARY = 3000;
+    private final int hireYear;
 
     public BaseEmployee(String name, String surname, int hireYear) {
         this.name = name;

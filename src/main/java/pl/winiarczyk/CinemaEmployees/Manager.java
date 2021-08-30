@@ -1,11 +1,7 @@
 package pl.winiarczyk.CinemaEmployees;
 
 public class Manager extends BaseEmployee {
-    final int salary = 5000;
-
-    public int getBonus() {
-        return bonus;
-    }
+    static final int salary = 5000;
 
     public void setBonus(int bonus) {
         this.bonus = bonus;

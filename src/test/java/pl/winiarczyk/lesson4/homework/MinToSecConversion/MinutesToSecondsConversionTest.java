@@ -5,11 +5,9 @@ import org.junit.jupiter.api.Test;
 
 class MinutesToSecondsConversionTest {
 
-    double timeInMinutes;
-
     @Test
     public void shouldConvert44MinutesToSeconds() {
-        timeInMinutes = 44;
+        double timeInMinutes = 44;
 
         double timeInSeconds = MinutesToSecondsConversion.convertMinutesToSeconds(timeInMinutes);
 
@@ -18,7 +16,7 @@ class MinutesToSecondsConversionTest {
 
     @Test
     public void shouldConvert0MinutesToSeconds() {
-        timeInMinutes = 0;
+        double timeInMinutes = 0;
 
         double timeInSeconds = MinutesToSecondsConversion.convertMinutesToSeconds(timeInMinutes);
 

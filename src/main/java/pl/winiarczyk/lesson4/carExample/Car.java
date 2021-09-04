@@ -8,10 +8,15 @@ public class Car implements Drive {
     String model;
     Engine engine;
 
+    public Car() {
+        this.mileage = 25;
+    }
+
     public Car(int doors, Brand brand, String model) { //to jest konstruktor
         this.doors = doors;
         this.brand = brand;
         this.model = model;
+        this.mileage = -1000;
     }
 
     public void horn() {

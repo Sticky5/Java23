@@ -6,6 +6,5 @@ class MinutesToSecondsConversion {
 
         double timeInSeconds = 60;
         return timeInSeconds = timeInMinutes * timeInSeconds;
-
     }
 }

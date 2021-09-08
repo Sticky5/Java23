@@ -4,5 +4,6 @@ public class AnimalSubclass extends Animal {
 
     public AnimalSubclass(String name) {
         super(name);
+
     }
 }

@@ -13,6 +13,6 @@ public class RightTriangle {
     }
 
     public static boolean isRightTriangle(int sideA, int sideB, int sideC) {
-        return (sideA ^ 2) + (sideB ^ 2) == (sideC ^ 2);
+        return ((sideA * sideA) + (sideB * sideB) == (sideC * sideC));
     }
 }

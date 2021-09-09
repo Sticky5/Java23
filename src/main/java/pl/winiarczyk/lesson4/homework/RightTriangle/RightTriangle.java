@@ -2,9 +2,9 @@ package pl.winiarczyk.lesson4.homework.RightTriangle;
 
 public class RightTriangle {
 
-    int sideA;
-    int sideB;
-    int sideC;
+    private int sideA;
+    private int sideB;
+    private int sideC;
 
     public RightTriangle(int sideA, int sideB, int sideC) {
         this.sideA = sideA;

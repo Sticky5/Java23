@@ -9,7 +9,7 @@ public class Employee {
     private int age;
     private BigDecimal baseSalary;
     private BigDecimal bonus;
-    public static final String whiteSpace = " ";
+    public static final String WHITE_SPACE = " ";
 
     public Employee(String name, String surname) {
         this.name = name;
@@ -38,14 +38,13 @@ public class Employee {
     }
 
     public String getEmployeeInfo() {
-        return "Employee name : " + name + whiteSpace + surname;
+        return "Employee name : " + name + WHITE_SPACE + surname;
     }
 
     public String getEmployeeDetails() {
-        return "Employee details : " + name + whiteSpace + surname + " is " + age;
+        return "Employee details : " + name + WHITE_SPACE + surname + " is " + age;
     }
 
-    // Method is used to get total  salary
     public BigDecimal getSalary() {
         return baseSalary;
     }

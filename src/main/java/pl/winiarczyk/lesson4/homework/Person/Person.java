@@ -2,7 +2,6 @@ package pl.winiarczyk.lesson4.homework.Person;
 
 import java.util.Objects;
 
-
 public class Person {
 
     private String name;

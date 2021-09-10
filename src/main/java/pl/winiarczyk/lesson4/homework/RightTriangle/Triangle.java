@@ -2,9 +2,9 @@ package pl.winiarczyk.lesson4.homework.RightTriangle;
 
 public class Triangle {
 
-    private static int sideA;
-    private static int sideB;
-    private static int sideC;
+    private int sideA;
+    private int sideB;
+    private int sideC;
 
     public Triangle(int sideA, int sideB, int sideC) {
         this.sideA = sideA;
@@ -12,7 +12,7 @@ public class Triangle {
         this.sideC = sideC;
     }
 
-    public static boolean isRightTriangle() {
+    public boolean isRightTriangle() {
         return (sideA * sideA) + (sideB * sideB) == (sideC * sideC);
     }
 }

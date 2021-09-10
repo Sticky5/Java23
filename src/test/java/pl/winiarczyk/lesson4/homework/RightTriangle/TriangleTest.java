@@ -6,22 +6,23 @@ import org.junit.jupiter.api.Test;
 class TriangleTest {
 
     @Test
-    public void shouldCheckIfThereIsRightTriangleWithSideA4SideB6SideC10() {
-        int sideA = 4;
-        int sideB = 6;
-        int sideC = 10;
+    public void shouldCheckIfThereIsRightTriangleWithSideA3SideB4SideC5() {
+        int sideA = 3;
+        int sideB = 4;
+        int sideC = 5;
 
-        boolean isRightTriangle = Triangle.isRightTriangle();
+        boolean isRightTriangle = new Triangle(sideA, sideB, sideC).isRightTriangle();
 
         Assertions.assertTrue(isRightTriangle);
     }
+
     @Test
     public void shouldCheckIfThereIsNotRightTriangleWithSideA5SideB7SideC9() {
         int sideA = 5;
         int sideB = 7;
         int sideC = 9;
 
-        boolean isNotRightTriangle = Triangle.isRightTriangle();
+        boolean isNotRightTriangle = new Triangle(sideA, sideB, sideC).isRightTriangle();
 
         Assertions.assertFalse(isNotRightTriangle);
     }

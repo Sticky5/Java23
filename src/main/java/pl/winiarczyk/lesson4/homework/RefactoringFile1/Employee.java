@@ -17,23 +17,17 @@ public class Employee {
     }
 
     public Employee(String name, String surname, int age) {
-        this.name = name;
-        this.surname = surname;
+        this(name, surname);
         this.age = age;
     }
 
     public Employee(String name, String surname, int age, BigDecimal baseSalary) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
+        this(name, surname, age);
         this.baseSalary = baseSalary;
     }
 
     public Employee(String name, String surname, int age, BigDecimal baseSalary, BigDecimal bonus) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-        this.baseSalary = baseSalary;
+        this(name, surname, age, baseSalary);
         this.bonus = bonus;
     }
 

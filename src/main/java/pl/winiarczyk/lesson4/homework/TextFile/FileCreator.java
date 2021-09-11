@@ -3,6 +3,7 @@ package pl.winiarczyk.lesson4.homework.TextFile;
 import java.io.*;
 
 public class FileCreator {
+
     public static void main(String[] args) throws IOException {
 
         File file = new File("data.txt");

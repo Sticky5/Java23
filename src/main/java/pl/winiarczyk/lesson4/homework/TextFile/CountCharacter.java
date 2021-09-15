@@ -11,7 +11,7 @@ public class CountCharacter {
         String text = Files.readString(Path.of("data.txt"));
 
         int count = 0;
-        for (int i = 0; i < text.length(); i++) {
+        for (int i = count; i < text.length(); i++) {
             count++;
         }
 

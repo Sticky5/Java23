@@ -1,5 +1,6 @@
 package pl.winiarczyk.lesson4.homework.BillCalculator;
 
+
 public class BillCalculator {
 
     public double calculate(double valueOfTheBill, double servicePayment) {

@@ -10,11 +10,7 @@ public class CountCharacter {
 
         String text = Files.readString(Path.of("data.txt"));
 
-        int count = 0;
-        for (int i = count; i < text.length(); i++) {
-            count++;
-        }
-
-        System.out.println("Number of characters in data.txt is: " + count);
+        System.out.println("Number of characters in data.txt is: " + text.length());
     }
 }
+

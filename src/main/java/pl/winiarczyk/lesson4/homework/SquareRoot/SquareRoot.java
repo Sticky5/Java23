@@ -4,8 +4,7 @@ public class SquareRoot {
 
     public static double square(double number) {
 
-        if (number > 0) {
-        } else {
+        if (number < 0) {
             throw new WrongNumberException("Given number should be over 0");
         }
         return Math.sqrt(number);

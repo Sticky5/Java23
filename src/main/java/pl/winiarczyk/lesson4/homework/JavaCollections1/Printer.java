@@ -22,7 +22,7 @@ public class Printer {
         ListIterator<String> iterator = listWithReplacedElements.listIterator();
         while (iterator.hasNext()) {
             String next = iterator.next();
-            if(next.equals(toReplace)) {
+            if (next.equals(toReplace)) {
                 iterator.set(replacement);
             }
         }

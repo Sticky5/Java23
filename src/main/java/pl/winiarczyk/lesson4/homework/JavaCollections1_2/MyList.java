@@ -23,13 +23,12 @@ public class MyList implements OwnList {
 
     @Override
     public void add(Integer element) {
-        int n = 0;
-        int newList[] = new int[n + 1];
+        int n = ownList.length;
+        int newList[] = new int[n - 1];
         for (int i = 0; i < n; i++) {
             newList[i] = ownList[i];
-            newList[n] = element;
-            return;
         }
+        newList[n -1] = element;
     }
 
     @Override
@@ -39,7 +38,6 @@ public class MyList implements OwnList {
 
     @Override
     public void add(int index, Integer element) {
-        int n = 0;
         int newList[] = new int[index + 1];
         if (index <= ownList.length) {
             for (int i = 0; i < ownList.length + 1; i++) {

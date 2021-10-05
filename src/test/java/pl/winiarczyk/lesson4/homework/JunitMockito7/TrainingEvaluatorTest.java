@@ -16,7 +16,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateOne")
     void shouldVerifyRateForLengthIsOne(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForLength();
 
@@ -26,7 +25,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateOne")
     void shouldVerifyRateForKCalIsOne(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForKCal();
 
@@ -36,7 +34,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateOne")
     void shouldVerifyRateForPulseIsOne(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForPulse();
 
@@ -54,7 +51,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateTwo")
     void shouldVerifyRateForLengthIsTwo(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForLength();
 
@@ -64,7 +60,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateTwo")
     void shouldVerifyRateForKCalIsTwo(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForKCal();
 
@@ -74,7 +69,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateTwo")
     void shouldVerifyRateForPulseIsTwo(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForPulse();
 
@@ -92,7 +86,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateThree")
     void shouldVerifyRateForLengthIsThree(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForLength();
 
@@ -102,7 +95,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateThree")
     void shouldVerifyRateForKCalIsThree(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForKCal();
 
@@ -112,7 +104,6 @@ class TrainingEvaluatorTest {
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateThree")
     void shouldVerifyRateForPulseIsThree(Training training) {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
         int actual = trainingEvaluator.rateForPulse();
 
@@ -131,7 +122,6 @@ class TrainingEvaluatorTest {
     @NullSource
     @MethodSource("provideSampleTrainingsWithIllegalLengthException")
     void shouldThrowIllegalLengthException(Training training) throws Exception {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
 
         try {
@@ -159,7 +149,6 @@ class TrainingEvaluatorTest {
     @NullSource
     @MethodSource("provideSampleTrainingsWithIllegalKCalException")
     void shouldThrowIllegalKCalException(Training training) throws Exception {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
 
         try {
@@ -185,7 +174,6 @@ class TrainingEvaluatorTest {
     @NullSource
     @MethodSource("provideSampleTrainingsWithIllegalPulseException")
     void shouldThrowIllegalPulseException(Training training) throws Exception {
-
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
 
         try {
@@ -210,7 +198,6 @@ class TrainingEvaluatorTest {
 
     @Test
     void testForPerfectTrainingEfficiency() {
-
         Training training = new Training(40, 349, 155);
         TrainingEvaluator trainingEvaluator = new TrainingEvaluator(training);
 

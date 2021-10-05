@@ -1,7 +1,6 @@
 package pl.winiarczyk.lesson4.homework.JunitMockito7;
 
 public class Training {
-
     private int lengthInMinutes;
     private int kCalBurned;
     private int avgPulse;

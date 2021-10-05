@@ -1,7 +1,6 @@
 package pl.winiarczyk.lesson4.homework.JunitMockito7;
 
 public class TrainingEvaluator {
-
     private Training training;
     private static final double LENGTH_WEIGHT = 1.0;
     private static final double KCAL_WEIGHT = 2.0;

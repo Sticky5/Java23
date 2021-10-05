@@ -12,7 +12,6 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.fail;
 
 class TrainingEvaluatorTest {
-
     @ParameterizedTest
     @MethodSource("provideSampleTrainingsRateOne")
     void shouldVerifyRateForLengthIsOne(Training training) {
